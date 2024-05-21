@@ -22,17 +22,17 @@ return
    	opts = {
    		ensure_installed = {
    			"lua-language-server", "stylua",
-   			"html-lsp", "css-lsp" , "prettier", "pyright"
+   			"html-lsp", "css-lsp" , "prettier"
    		},
    	},
    },
-
+--
    {
    	"nvim-treesitter/nvim-treesitter",
    	opts = {
    		ensure_installed = {
    			"vim", "lua", "vimdoc",
-        "html", "css", "python"
+        "html", "css"
    		},
    	},
    },
@@ -45,7 +45,7 @@ return
         "xiyaowong/transparent.nvim",
       opts = {
         extra_groups = {
-          "NormalFloat", -- plugins which have float panel such as Lazy, Mason, LspInfo
+           "NormalFloat", -- plugins which have float panel such as Lazy, Mason, LspInfo
           "NvimTreeNormal" -- NvimTree
         },
       }

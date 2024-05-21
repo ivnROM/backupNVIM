@@ -35,6 +35,8 @@ dofile(vim.g.base46_cache .. "statusline")
 
 require "nvchad.autocmds"
 require "transparent"
+vim.o.cursorline = false
+vim.o.cursorcolumn = false
 
 vim.schedule(function()
   require "mappings"
