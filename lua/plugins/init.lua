@@ -1,4 +1,5 @@
-return {
+return
+{
   {
     "stevearc/conform.nvim",
     -- event = 'BufWritePre', -- uncomment for format on save
@@ -39,4 +40,8 @@ return {
     {
        "williamboman/mason-lspconfig.nvim"
     },
+
+    {
+        "xiyaowong/transparent.nvim"
+    }
 }
